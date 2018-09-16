@@ -1,4 +1,4 @@
-FROM python:3.7-alpine3.8
+FROM arm64v8/python:alpine
 
 # update apk repo
 RUN echo "http://dl-4.alpinelinux.org/alpine/v3.7/main" >> /etc/apk/repositories && \
